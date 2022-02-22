@@ -1,0 +1,25 @@
+{
+  "name": "tokensoft_token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "console": "truffle console",
+    "test": "npm run compile && scripts/test.sh",
+    "coverage": "truffle run coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/test-helpers": "0.5.9",
+    "bignumber.js": "9.0.1",
+    "ganache-cli": "^6.9.1",
+    "solidity-coverage": "0.7.11",
+    "truffle": "5.1.49",
+    "truffle-contract-size": "^2.0.0"
+  }
+}
